@@ -23,8 +23,7 @@ def daily_reminder():
     else:
         reminder += ". Consider completing it when you have free time."
 
-    print(f"{reminder}")  #  The f-string is essential here!
-
+    print('"'+ reminder + '"')  #  Quote marks here!
 
 if __name__ == "__main__":
     daily_reminder()
